@@ -1,2 +1,4 @@
-package org.example;public class BuscarAMT {
+package org.example;
+
+public class BuscarAMT {
 }
