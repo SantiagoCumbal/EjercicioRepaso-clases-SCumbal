@@ -21,5 +21,16 @@ public class AMT {
                 ((JFrame)SwingUtilities.getWindowAncestor(aceptarButton)).dispose();
             }
         });
+        aceptarButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFrame frame = new JFrame();
+                frame.setContentPane(new BuscarAMT().MainPanel);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setSize(600,600);
+                frame.setVisible(true);
+                ((JFrame)SwingUtilities.getWindowAncestor(aceptarButton)).dispose();
+            }
+        });
     }
 }
