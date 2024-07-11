@@ -37,7 +37,7 @@ public class BuscarAMT {
                        combustibleT.setText(resultSet.getString("Tipo_combustible"));
                        colorT.setText(resultSet.getString("color"));
                        propietarioT.setText(resultSet.getString("propietario"));
-                       Error.setText("");
+                       Error.setText(" ");
                     }
                     if(propietarioT.getText()=="¨¨"){
                         Error.setText("------ERROR NO EXISTE ESTE VEHICULO------");
